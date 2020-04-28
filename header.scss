@@ -1,0 +1,169 @@
+$p-1:#03a9f4;
+$p-2:#f75e2e;
+$p-3:#ecfa4d;
+$p-4:#656a70;
+$light:#fff;
+$dark:#000;
+
+$p-5:mix($light,$p-1,40%);
+$p-6:mix($light,$p-1,75%);
+$p-7:mix($light,$p-1,90%);
+$p-8:mix($dark,$p-1,20%);
+$p-9:mix($dark,$p-1,50%);
+$p-10:mix($dark,$p-1,70%);
+
+$p-11:mix($light,$p-2,40%);
+$p-12:mix($light,$p-2,75%);
+$p-13:mix($light,$p-2,90%);
+$p-14:mix($dark,$p-2,20%);
+$p-15:mix($dark,$p-2,50%);
+$p-16:mix($dark,$p-2,70%);
+
+$p-17:mix($light,$p-3,40%);
+$p-18:mix($light,$p-3,75%);
+$p-19:mix($light,$p-3,90%);
+$p-20:mix($dark,$p-3,20%);
+$p-21:mix($dark,$p-3,50%);
+$p-22:mix($dark,$p-3,70%);
+
+$p-23:mix($light,$p-4,40%);
+$p-24:mix($light,$p-4,75%);
+$p-25:mix($light,$p-4,90%);
+$p-26:mix($dark,$p-4,20%);
+$p-27:mix($dark,$p-4,50%);
+$p-28:mix($dark,$p-4,70%);
+
+
+
+div{
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	
+	margin:15px 30px ;
+	float:left;
+	
+}
+@mixin h2{
+	font-family: "tahoma";
+	margin:35px 50px;
+	
+}
+
+@mixin fonts{
+	font-family: "tahoma";
+	font-size:16px;
+	display:flex;
+	align-items:center;
+	
+}
+@mixin p1{
+	font-family: "tahoma";
+	font-size:16px;
+	display:flex;
+	align-items:center;
+	color:#a3a6a9;
+}
+
+.p1{
+@include p1;
+}
+
+.prim{
+@include fonts;
+}
+hr{
+clear:both;
+}
+
+h2{
+@include h2;
+}
+
+.pr-1{
+ background-color:$p-1;
+}
+
+.pr-2{
+ background-color:$p-2;
+}
+
+.pr-3{
+ background-color:$p-3;
+}
+
+.pr-4{
+ background-color:$p-4;
+}
+.pr-5{
+	 background-color:$p-5;
+}
+.pr-9{
+	 background-color:$p-6;
+}
+.pr-13{
+	 background-color:$p-7;
+}
+.pr-17{
+	 background-color:$p-8;
+}
+.pr-21{
+	 background-color:$p-9;
+}
+.pr-25{
+	 background-color:$p-10;
+}
+.pr-6{
+	 background-color:$p-11;
+}
+.pr-10{
+	 background-color:$p-12;
+}
+.pr-14{
+	 background-color:$p-13;
+}
+.pr-18{
+	 background-color:$p-14;
+}
+.pr-22{
+	 background-color:$p-15;
+}
+.pr-26{
+	 background-color:$p-16;
+}
+.pr-7{
+	 background-color:$p-17;
+}
+.pr-11{
+	 background-color:$p-18;
+}
+.pr-15{
+	 background-color:$p-19;
+}
+.pr-19{
+	 background-color:$p-20;
+}
+.pr-23{
+	 background-color:$p-21;
+}
+.pr-27{
+	 background-color:$p-22;
+}
+.pr-8{
+	 background-color:$p-23;
+}
+.pr-12{
+	 background-color:$p-24;
+}
+.pr-16{
+	 background-color:$p-25;
+}
+.pr-20{
+	 background-color:$p-26;
+}
+.pr-24{
+	 background-color:$p-27;
+}
+.pr-28{
+	 background-color:$p-28;
+}
